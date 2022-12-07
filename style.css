@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+
+padding: 0;
+box-sizing: border-box;
+
+}
+.na{
+    text-decoration: none;
+    margin-right: 30px;
+    
+    color: blue;
+
+
+}
+.blue{
+    color: blue;
+}
+.white{
+    color: white;
+}
+.na:hover{
+
+    color: crimson;
+}
+
+.a{
+    padding-top: 20px;
+    font-size: 30px;
+    margin-left: 100px;
+    margin-right: 600px;
+    font-weight: bold;
+}
+
+
+.p,.fw-bold{
+    color:linear-gradient(gold,rgb(211, 16, 16));
+}
+.btno:hover{
+    transform: scale(1.1,1.1);
+
+color: blue;
+background-color: white;
+}
+.btno{
+    transition: 4s all;
+    color: white;
+    background-color: blue;
+    height: 60px;
+    width: 160px;
+    border: none;
+    border-radius: 30px;
+}
+.co{
+background:linear-gradient(aqua,black);
+}
+.violet{
+    color: rgb(251, 246, 255);
+}
+.al{
+    font-size: 15px;
+    margin-right: 10px
+    ;
+    margin-bottom: 15px;
+    color: rgba(20, 220, 30, 0.658);
+}
+.d-block{
+    border-radius: 50px;
+    transition: 4s all;
+}
+.d-block:hover{
+    -moz-transform: scale(1.4) rotate(0deg);
+-webkit-transform: scale(1.4) rotate(0deg);
+-o-transform: scale(1.4) rotate(0deg);
+-ms-transform: scale(1.4) rotate(0deg);
+transform: scale(1.4) rotate(0deg);
+}
+
+.col-10{
+    overflow: hidden;
+}
+.services{
+    text-align: center;
+height: 100px;
+padding-top: 30px;
+width: 100vw;
+    color: blue;
+}
+
+.cards{
+    justify-content: space-evenly;
+    height: 400px;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    
+}
+.card-title{
+    color: blue;
+
+}
+.card{
+    padding: 15px;
+    transition: 2s all;
+}
+.card:hover{
+    transform: scale(1.1,1.1);
+}
+.card-img-top{
+width: 330px;
+    height: 250px;
+}
+
+.cont{
+    height: 300vh;
+    width: 100vw;
+}
+
+.services{
+    background: linear-gradient(crimson,coral);
+}
+.cards{
+    background:linear-gradient(rgba(220, 190, 20, 0.863),goldenrod);
+}
+.fa-brands{
+    font-size: 20px;
+    color: rgb(201, 228, 201);
+    margin-right: 20px;
+}
+
+.footer{
+    display: flex;
+    padding-left: 50px;
+    padding-top: 30px;
+    background:linear-gradient(rgb(6, 138, 138),blue);
+    flex-direction: row;
+    
+}
+.pp{
+    width: 500px;
+}
+li,a{
+    text-decoration: none;
+    list-style: none;
+
+}
+a{
+    text-decoration: none;
+}
+.gg{
+    color: wheat;
+    text-decoration: none;
+transition: 4s all;
+}
+.gg:hover{
+
+    padding-left: 30px;
+}
+
+
+.social{
+    margin-left: 60px;
+    justify-content: space-evenly;
+    display: flex;
+
+    flex-direction: row;
+}
+.about{
+    color: white;
+    margin-right: 180px;
+}
